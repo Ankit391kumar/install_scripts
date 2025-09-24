@@ -15,4 +15,6 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-sudo usermod -aG docker $USER
+
+# Run below command after instalation in cli
+# usermod -aG docker $USER
